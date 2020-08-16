@@ -1,0 +1,293 @@
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: block;
+  margin: 8px;
+}
+
+header{
+  height: 70px;
+  width: 100%;
+  background-color: #EC715F;
+}
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+div{
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  height: 50px;
+  float: left;
+}
+
+nav{
+  display: block;
+}
+
+.nav{
+  float: right;
+}
+
+.nav-list{
+  float: left;
+  width: 120px;
+  line-height: 70px;
+  color: #FAFAFA;
+  padding:0 30px;
+  list-style: none;
+  font-size: 16px;
+}
+
+section{
+  display: block;
+}
+
+#mv{
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  color: #FAFAFA;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img2/mv.png);
+}
+
+#portfolio{
+  background-color: #ECEFF1
+}
+
+.heading-text{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.production-group{
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.production:nth-child(-n+3){
+  margin-top: 0;
+}
+
+.production:nth-child(3n){
+  margin-right: 0;
+}
+
+.production{
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+.bg-1{
+  background-image: url(img2/sketch.jpg);
+}
+
+.bg-2{
+  background-image: url(img2/talk.jpg);
+}
+
+.bg-3{
+  background-image: url(img2/webcamp-mother.png);
+}
+
+.bg-4{
+  background-image: url(img2/webcamp.png);
+}
+
+.bg-5{
+  background-image: url(img2/websuku.png);
+}
+
+.bg-6{
+  background-image: url(img2/write.jpg)
+}
+
+@media (max-width: 768px)
+.production{
+  float: none;
+}
+
+@media (max-width: 768px)
+.sp-none{
+display: none;
+}
+
+.bg-5{
+  background-image: url();
+}
+
+.bg-6{
+  background-image: url();
+}
+
+#featuer{
+  background-size: cover;
+  background-position: center;
+}
+
+.heading{
+  padding-top: 90px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+}
+
+@media (max-width: 768px)
+.strength-group{
+  width: 320px;>
+}
+
+.strength-group{
+  width: 980px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+i{
+  font-style: italic;
+}
+.strength-title{
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.strength-text{
+  text-align-last: right;
+  font-size: 16px;
+}
+
+.strength:last-child{
+  margin-right: 0;
+}
+
+.strength{
+  float: left;
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+#profile{
+  background-color: #ECEFF1;
+}
+
+@media (max-width: 768px)
+#profile{
+  padding: 0 5%;
+}
+
+@media (max-width: 768px)
+#profile-group{
+  text-align: center;
+}
+
+.profile-group{
+  padding: 30px 0 90px 0;
+}
+
+@media (max-width: 768px)
+#profile-group{
+  text-align: center;
+}
+
+@media (max-width: 768px)
+.left-content{
+  float: none;
+  width: 100%;
+}
+
+.left-content{
+  width: 50%;
+  float: left;
+}
+
+.my-face{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-right: 50%;
+  background-image: url(img2/my-icon.jpg);
+}
+
+@media (max-width: 768px)
+.right-content{
+  float: none;
+  width: 100%;
+}
+
+.left-content{
+  width: 50%;
+  float: right;
+}
+
+@media (max-width: 768px)
+.discriptio-title:first-child{
+  margin-top: 20px;
+}
+
+.discription-title:first-child{
+  margin-top: 0;
+}
+
+.discription-title{
+  margin: 20px 0 5px 0;
+  font-size: 20px;
+}
+
+.discription-text{
+  font-size: 16px;
+}
+
+@media (max-width: 768px)
+#contact
+padding: 0 5%;
+}
+
+@media (max-width: 768px)
+.contact-group{
+  width: 100%;
+  text-align: center;
+}
+
+.contact-group{
+  width: 800px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  line-height: 60;
+}
+
+.copyright{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+}
